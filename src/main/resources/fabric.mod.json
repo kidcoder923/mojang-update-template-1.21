@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "mupdate",
+	"version": "${0.0.1}",
+	"name": "Mojang Update",
+	"description": "This is a mod to bring the updates that Mojang is draging it's feet on.",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/mupdate/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.strikezone.mupdate.MojangUpdate"
+		],
+		"fabric-datagen": [
+			"net.strikezone.mupdate.MojangUpdateDataGenerator"
+		],
+		"client": [
+			"net.strikezone.mupdate.mixin.MojangUpdateClient"
+		]
+	},
+	"mixins": [
+		"mupdate.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.4",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
