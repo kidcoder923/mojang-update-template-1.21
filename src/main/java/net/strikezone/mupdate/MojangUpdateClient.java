@@ -1,4 +1,4 @@
-package net.strikezone.mupdate.mixin;
+package net.strikezone.mupdate;
 
 import net.fabricmc.api.ClientModInitializer;
 
