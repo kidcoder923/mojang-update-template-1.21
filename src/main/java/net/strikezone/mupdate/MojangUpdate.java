@@ -13,6 +13,7 @@ public class MojangUpdate implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
+		ModItems.registerModItems();
 
 	}
 }

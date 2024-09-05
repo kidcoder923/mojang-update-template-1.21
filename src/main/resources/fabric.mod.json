@@ -5,11 +5,11 @@
 	"name": "Mojang Update",
 	"description": "This is a mod to bring the updates that Mojang is draging it's feet on.",
 	"authors": [
-		"Me!"
+		"Strikezone23"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/kidcoder923/mojang-update-template-1.21"
 	},
 	"license": "MIT",
 	"icon": "assets/mupdate/icon.png",
