@@ -1,0 +1,6 @@
+{
+  "parent": "mincraft:block/cube_all",
+  "testures": {
+    "all": "mupdate:block/scorched_endstone"
+  }
+}
