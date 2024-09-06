@@ -1,6 +1,6 @@
 {
-  "parent": "mincraft:block/cube_all",
-  "testures": {
+  "parent": "minecraft:block/cube_all",
+  "textures": {
     "all": "mupdate:block/scorched_endstone"
   }
 }

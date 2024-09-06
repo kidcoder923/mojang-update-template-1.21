@@ -1,5 +1,7 @@
 {
   "item.mupdate.enderite_ingot": "Enderite Ingot",
 
-  "block.mupdate.scorched_endstone": "Scorched Endstone"
+  "block.mupdate.scorched_endstone": "Scorched Endstone",
+
+  "itemgroup.mupdate.mojang_update_end": "Mojang Update End"
 }
